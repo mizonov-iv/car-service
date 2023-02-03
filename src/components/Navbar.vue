@@ -8,33 +8,38 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Услуги
+          <li class="nav-item item-hover">
+            <a class="nav-link " href="#">
+              Главная
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Диагностика автомобиля</a></li>
-              <li><a class="dropdown-item" href="#">Ремонт двигателя</a></li>
-              <li><a class="dropdown-item" href="#">Ремонт трансмиссии</a></li>
-              <li><a class="dropdown-item" href="#">Ремонт подвески</a></li>
-              <li><a class="dropdown-item" href="#">Ремонт тормозной системы</a></li>
-              <li><a class="dropdown-item" href="#">Комьютерная диагностика</a></li>
-              <li><a class="dropdown-item" href="#">Шиномонтаж</a></li>
-            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">О компании</a>
+            <a class="nav-link" aria-current="page" href="#">О сервисе</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Спецпредложения</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Отзывы</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Контакты</a>
           </li>
         </ul>
-        <a class="navbar-brand" href="#">
-          <img src="/icons/telegram-icon.svg" alt="">
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="/icons/whatsapp-icon.svg" alt="">
-        </a>
+        <div class="d-flex text-light">
+          <div>
+            <img src="/icons/Untitled.svg" alt="">
+          </div>
+          <div class="d-flex flex-column">
+            <div>
+              +7-922-135-23-45
+            </div>
+            <div>
+              <button>Заказать звонок</button>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </nav>
@@ -52,5 +57,8 @@ export default {
 }
 .navbar-toggler {
   border: none;
+}
+.item-hover:hover{
+  color: red;
 }
 </style>

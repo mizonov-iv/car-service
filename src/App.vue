@@ -4,7 +4,7 @@
     <Navbar/>
   </div>
 
-  <Slider/>
+<!--  <Slider/>-->
 </template>
 
 <script setup>
