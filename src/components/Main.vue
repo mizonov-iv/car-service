@@ -7,8 +7,11 @@
       <div class="text-light text-center fw-bold fs-1 pt-4 px-5">
         Автосервис по ремонту и обслуживанию <br> автомобилей всех марок
       </div>
-      <div>
-        Контактная форма
+      <div class="d-flex">
+        <ContactForm/>
+        <div>
+          Опиисание
+        </div>
       </div>
       <div>
         Иконки услуг
@@ -18,8 +21,9 @@
 </template>
 
 <script>
+import ContactForm from "./ContactForm.vue";
 export default {
-
+  components: {ContactForm}
 }
 </script>
 
