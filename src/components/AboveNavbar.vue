@@ -1,6 +1,6 @@
 <template>
   <div class="bg-dark">
-    <div class="row text-light px-4 p-2 mx-auto text-center justify-content-center">
+    <div class="row text-light px-4 p-3 mx-auto text-center justify-content-center">
       <div class="col">Кузовной ремонт автомобилей</div>
       <div class="col d-flex above-navbar-address">
         <img src="/icons/wheel.svg" alt="wheel" class="above-navbar-icons">

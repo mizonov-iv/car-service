@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #00060a">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #101112">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Логотип</a>
 
