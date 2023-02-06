@@ -3,7 +3,7 @@
     <div class="fs-3 text-uppercase text-decoration-underline mt-3">
       {{item.title}}
     </div>
-    <div class="fs-4 mb-2">
+    <div class="fs-5 mb-2">
       {{item.subtitle}}
     </div>
     <div class="service-item___img">

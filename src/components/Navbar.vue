@@ -28,7 +28,7 @@
         </ul>
         <div class="d-flex text-light">
           <div>
-            <img src="/icons/Untitled.svg" alt="">
+            <img src="" alt="">
           </div>
           <div class="d-flex flex-column">
             <div>
