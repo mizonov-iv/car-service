@@ -1,9 +1,9 @@
 <template>
-  <div class="col-10 col-md-3 text-light text-center" v-for="(item, index) in items" :key="index">
-    <div class="fs-3 text-uppercase text-decoration-underline mt-3">
+  <div class="col-11 col-md-3 text-light text-center" v-for="(item, index) in items" :key="index">
+    <div class="fs-3 text-uppercase text-decoration-underline mt-3 font-bold">
       {{item.title}}
     </div>
-    <div class="fs-5 mb-2">
+    <div class="fs-5 mb-2 font-medium">
       {{item.subtitle}}
     </div>
     <div class="service-item___img">

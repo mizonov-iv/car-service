@@ -1,9 +1,9 @@
 <template>
   <div class="services-wrapper">
-    <div class="fs-2 fw-bold text-uppercase text-center text-light">
+    <div class="fs-2 fw-bold text-uppercase text-center text-light font-bold">
       <span style="color: rgb(255, 234, 153)">Любые виды услуг</span> <br> для вашего авто
     </div>
-    <div class="px-md-5 d-flex flex-md-row justify-content-md-between">
+    <div class="px-md-5 d-flex flex-column align-items-center flex-md-row justify-content-md-between mb-4">
       <ServiceItem :items="services"/>
     </div>
     <Button :name="'Проконсультироваться по телефону'"/>
@@ -33,5 +33,6 @@ data: () => ({
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 10px 0 10px 0;
 }
 </style>

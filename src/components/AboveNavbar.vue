@@ -1,8 +1,11 @@
 <template>
   <div class="bg-dark">
-    <div class="row text-light px-4 p-3 mx-auto text-center justify-content-center">
-      <div class="col">Кузовной ремонт автомобилей</div>
-      <div class="col d-flex above-navbar-address">
+    <div class="d-flex flex-column flex-md-row text-light px-2 px-md-4 p-3 mx-auto text-center justify-content-md-center align-items-baseline align-items-md-center">
+      <a class="navbar-brand mx-auto d-md-none" href="#">
+        <img src="/img/logo.png" alt="" style="width: 300px">
+      </a>
+      <div class="d-none d-md-block col fs-5 above-navbar-address">Ремонт автомобилей любой сложности</div>
+      <div class="col d-flex mb-md-0 above-navbar-address">
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="rgb(255, 234, 153)" class="bi bi-geo-alt-fill me-1" viewBox="0 0 16 16">
           <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
         </svg>
@@ -37,5 +40,8 @@ export default {
 }
 .above-navbar-address {
   font-size: 16px;
+  font-family: 'TT Norms';
+  font-weight: bold;
+  font-style: normal;
 }
 </style>

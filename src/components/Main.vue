@@ -4,12 +4,12 @@
       Несем личную ответственность за каждый автомобиль!
     </div>
     <div class="main">
-      <div class="text-light text-center fw-bold fs-1 pt-4 px-5">
+      <div class="text-light text-center fw-bold fs-1 pt-4 px-1 px-md-5 font-bold text-uppercase">
         Автосервис по ремонту и обслуживанию <br> автомобилей всех марок
       </div>
-      <div class="d-flex p-2 mx-auto">
-        <ContactForm class="col-md-5"/>
-        <div class="col-md-5 fs-5 text-light">
+      <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center p-md-2 px-md-5">
+        <ContactForm class="mx-auto col-11 col-md-5"/>
+        <div class="mx-auto mt-3 col-11 col-md-7 fs-5 text-md-start text-center text-light font-regular">
           Автосервис в Екатеринбурге предоставляет разный спектр услуг по обслуживанию всех марок авто отечественного и зарубежного производства.
           Мы про качество. <br>
           Автосервис г. Екатеринбург "VService" <br>
@@ -37,6 +37,10 @@ export default {
 .slogan {
   background-color: rgb(255, 234, 153);
   color: #262626;
+  font-family: 'TT Norms';
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.5px;
 }
 .main {
   height: 100%;

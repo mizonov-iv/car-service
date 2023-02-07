@@ -1,7 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #101112">
+  <nav class="navbar navbar-expand-lg navbar-dark px-3" style="background-color: #101112">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Логотип</a>
+      <a class="navbar-brand d-none d-md-block" href="#">
+        <img src="/img/logo.png" alt="" style="width: 300px">
+      </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,15 +32,14 @@
           <div>
             <img src="" alt="">
           </div>
-          <div class="d-flex flex-column">
-            <div>
+          <div class="d-flex flex-column mx-auto">
+            <div class="text-center text-decoration-underline fs-4">
               +7-922-135-23-45
             </div>
             <div>
-              <button>Заказать звонок</button>
+              <Button :name="'Заказать звонок'"/>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -46,8 +47,9 @@
 </template>
 
 <script>
+import Button from "./Button.vue";
 export default {
-
+components: {Button}
 }
 </script>
 

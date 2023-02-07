@@ -1,7 +1,7 @@
 <template>
   <div class="p-md-4">
-    <div class="d-none d-md-block mx-auto rounded contact-form">
-      <h2  class="text-center contact-form__header">ЗАПИШИТЕСЬ НА БЕСПЛАТНУЮ ДИАГНОСТИКУ ВАШЕГО АВТО</h2>
+    <div class="mx-auto rounded contact-form">
+      <h2  class="text-center contact-form__header font-bold">ЗАПИШИТЕСЬ НА БЕСПЛАТНУЮ ДИАГНОСТИКУ ВАШЕГО АВТО</h2>
       <p class="text-light text-center">Заполните форму ниже, приезжайте к нам и получите реальную ситуацию по Вашему автомобилю</p>
       <form class="needs-validation" novalidate>
         <div class="mb-3 form-floating has-validation">
@@ -35,7 +35,7 @@
         </div>
         <button
             type="submit"
-            class="btn w-100 rounded-pill p-3 contact-form__btn"
+            class="btn w-100 rounded-pill p-3 contact-form__btn font-bold"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
             @click.prevent="sendMessage"
@@ -51,7 +51,6 @@
 </template>
 
 <script>
-// import {mask} from "vue-the-mask";
 import axios from "axios";
 import {mask} from "vue-the-mask"
 
@@ -66,7 +65,7 @@ export default {
   methods: {
     sendMessage() {
 
-      const TOKEN = "5688324213:AAENCPbMFOKejLYK-SN-tITi5io1I6sQJ2I"
+      // const TOKEN = "5688324213:AAENCPbMFOKejLYK-SN-tITi5io1I6sQJ2I"
       const CHAT_ID = "-1001506049425"
       const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`
 
@@ -101,5 +100,7 @@ export default {
 }
 .contact-form__btn {
   background-color: rgb(255, 234, 153);
+  font-size: 18px;
+  font-weight: bold;
 }
 </style>

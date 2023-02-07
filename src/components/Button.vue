@@ -1,12 +1,5 @@
 <template>
-  <button
-      class="custom-btn rounded-pill p-2 px-4 fs-5
-      fw-bold
-      m-4
-      d-block
-      mx-auto
-"
-  >
+  <button class="custom-btn rounded-pill p-2 px-4 fw-bold mt-2 d-block mx-auto font-medium">
     {{name}}
   </button>
 </template>
@@ -20,5 +13,6 @@ export default {
 <style scoped>
 .custom-btn {
   background-color: rgb(255, 234, 153);
+  font-size: 18px;
 }
 </style>
