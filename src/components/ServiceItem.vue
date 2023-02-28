@@ -1,5 +1,5 @@
 <template>
-  <div class="col-11 col-md-3 text-light text-center" v-for="(item, index) in items" :key="index">
+  <div class="col-11 col-md-5 text-light text-center" v-for="(item, index) in items" :key="index">
     <div class="fs-3 text-uppercase text-decoration-underline mt-3 font-bold">
       {{item.title}}
     </div>

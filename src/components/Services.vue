@@ -19,9 +19,8 @@ export default {
   components: {ServiceItem, Button},
 data: () => ({
   services: [
-    { title: "Диагностика", subtitle: "Компьютерная диагностика", img: "diagnostics" },
-    { title: "Сервис", subtitle: "Техническое обслуживание", img: "service" },
-    { title: "Ремонт", subtitle: "Любой сложности", img: "repair" },
+    { title: "Малярные работы", subtitle: "Строгое следование технологии кузовного ремонта и малярных работ, не зависимо от объема ремонта кузова", img: "painting" },
+    { title: "Покраска", subtitle: "Только современное оборудование и квалифицированные специалисты", img: "painting2" },
   ],
 })
 }
@@ -33,6 +32,6 @@ data: () => ({
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 10px 0 10px 0;
+  padding: 10px 0px 10px 0px;
 }
 </style>
