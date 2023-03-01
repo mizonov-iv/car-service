@@ -1,45 +1,32 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark px-3" style="background-color: #101112">
-    <div class="container-fluid">
-      <a class="navbar-brand d-none d-md-block" href="#">
+    <div class="container-fluid" id="main">
+      <a class="navbar-brand d-none d-md-block" href="#main">
         <img src="/img/logo.png" alt="" style="width: 300px">
       </a>
-
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
           <li class="nav-item item-hover">
-            <a class="nav-link " href="#">
-              Главная
-            </a>
+            <a class="nav-link " href="#main">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">О сервисе</a>
+            <a class="nav-link" aria-current="page" href="#about">О сервисе</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Спецпредложения</a>
+            <a class="nav-link" href="#contact">Спецпредложения</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Отзывы</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Контакты</a>
+            <a class="nav-link" href="#contacts">Контакты</a>
           </li>
         </ul>
-        <div class="d-flex text-light">
-          <div>
-            <img src="" alt="">
-          </div>
-          <div class="d-flex flex-column mx-auto">
-            <div class="text-center text-decoration-underline fs-4">
-              +7-922-135-23-45
-            </div>
-            <div>
-              <Button :name="'Заказать звонок'"/>
-            </div>
-          </div>
+        <div class="d-flex flex-column mx-auto text-light">
+          <a class="text-center text-decoration-underline text-light fs-4" style="cursor: pointer"  href="tel:+79221352345">+7-922-135-23-45</a>
+          <a class="d-block custom-btn rounded-pill p-2 px-4 fw-bold mt-2 d-block mx-auto font-medium text-decoration-none text-dark" href="#contact">
+            Заказать звонок
+          </a>
         </div>
       </div>
     </div>
@@ -47,9 +34,7 @@
 </template>
 
 <script>
-import Button from "./Button.vue";
 export default {
-components: {Button}
 }
 </script>
 
@@ -62,5 +47,11 @@ components: {Button}
 }
 .item-hover:hover{
   color: red;
+}
+
+.custom-btn {
+  background-color: rgb(255, 234, 153);
+  font-size: 18px;
+  cursor: pointer;
 }
 </style>

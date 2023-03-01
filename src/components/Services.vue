@@ -1,5 +1,5 @@
 <template>
-  <div class="services-wrapper">
+  <div class="services-wrapper" id="about">
     <div class="fs-2 fw-bold text-uppercase text-center text-light font-bold">
       <span style="color: rgb(255, 234, 153)">Любые виды услуг</span> <br> для вашего авто
     </div>
